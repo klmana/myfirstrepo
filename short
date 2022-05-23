@@ -1,1 +1,12 @@
+Shell, navigation
 
+pwd
+ls
+cd
+less
+touch
+cp
+mv
+rm
+mkdir
+rmdir

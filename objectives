@@ -1,7 +1,9 @@
 Shell, navigation 
 
-How to navigate in an Unix system ->cd (root directory) cd ~ (home directory) cd .. (directory level) cd - (directory back)
-How to list files and directories ->ls |  ls /(list the contents of the root directory) ls ~ (list the contents in the users home)
+How to navigate in an Unix system 
+  ->cd (root directory) cd ~ (home directory) cd .. (directory level) cd - (directory back)
+How to list files and directories 
+  ->ls |  ls /(list the contents of the root directory) ls ~ (list the contents in the users home)
 How to display the content of a file
 How to create a file or directory
 How to remove a file or directory

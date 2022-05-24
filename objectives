@@ -133,14 +133,36 @@ What do the commands
       ex: find shell directory find / -type d -name shell;  
       ex: search for file find /root/shell -name README.md
 -wc
--sort-
+  ->print newline, word, and byte counts for each file
+      ex:wc -l README.md (return number of lines)
+-sort
+  -> sort >( anka terbalik/tidak rapi)or merge >( combine /many to one)records (lines) of text and binary files 
+    ex:emacs sort 351624)tape sort sort 123456 menjadi rapi)
 uniq
+  ->report or omit repeated lines(laporkan atau hilangkan baris yang berulang)
 -grep
+  ->print lines that match patterns(garis cetak yang cocok dengan pola)
 -tr
-How to redirect standard output to a file
-How to get standard input from a file instead of the keyboard
-How to send the output from one program to the input of another program
-How to combine commands and filters with redirections
+  ->translate or delete characters
+    \\ backslash (garis miring terbalik)
+     \a     audible BEL (terdengar BEL)
+
+       \b     backspace (menghapus)
+
+       \f     form feed (umpan formulir)
+
+       \n     new line
+
+       \r     return
+
+       \t     horizontal tab
+
+       \v     vertical tab
+How to redirect standard output to a file -> Using the ' < ' symbol,
+How to get standard input from a file instead of the keyboard -> a.out<input.txt
+How to send the output from one program to the input of another program -> cat *.txt | sort | uniq > result-file
+How to combine commands and filters with redirections -> Using the Semicolon (;) Operator/
+
 *Special Characters
 What are special characters
 Understand what do the white spaces, single quotes, double quotes, backslash, comment, pipe, command separator, tilde and how and when to use them

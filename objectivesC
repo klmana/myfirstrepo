@@ -4,10 +4,13 @@ C - Hello, World
 Why C programming is awesome
 Who invented C
 Who are Dennis Ritchie, Brian Kernighan and Linus Torvalds
-What happens when you type gcc main.c
-What is an entry point
-What is main
-How to print text using printf, puts and putchar
+What happens when you type gcc main.c = will compiler and create an executable file called a.out.
+
+What is an entry point = a location in code where a tranfer of program control (execution) occurs.
+What is main = is function/a predefined keyword or function in c.
+How to print text using printf, puts and putchar = for printf use ("%");brackets/doublequot/percent/semicolong :more expensive 
+                                                 = for puts use ("\n");moves the cursor to next line/les expensive printing a string
+                                                 = for putchar use ( );write the character to stdout
 How to get the size of a specific type using the unary operator sizeof
 How to compile using gcc
 What is the default program name when compiling with gcc

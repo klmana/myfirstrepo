@@ -11,24 +11,73 @@ What is main = is function/a predefined keyword or function in c.
 How to print text using printf, puts and putchar = for printf use ("%");brackets/doublequot/percent/semicolong :more expensive 
                                                  = for puts use ("\n");moves the cursor to next line/les expensive printing a string
                                                  = for putchar use ( );write the character to stdout
-How to get the size of a specific type using the unary operator sizeof
-How to compile using gcc
-What is the default program name when compiling with gcc
-What is the official C coding style and how to check your code with betty-style
-How to find the right header to include in your source code when using a standard library function
-How does the main function influence the return value of the program
+How to get the size of a specific type using the unary operator sizeof = sizeof(char)=1bytes
+                                                                       = sizeof(int)=2bytes
+How to compile using gcc = gcc filename.c
+                         = ./a.out
+What is the default program name when compiling with gcc =gcc assumes
+What is the official C coding style and how to check your code with betty-style =  betty filename .Use C99 standard
+  Do not use tabs, use spaces instead
+  Use 4 spaces per indent level
+  Use 1 space between keyword and opening bracket
+          /* OK */
+          if (condition)
+          while (condition)
+          for (init; condition; step)
+          do {} while (condition)
+
+                                  /* Wrong */
+                                  if(condition)
+                                  while(condition)
+                                  for(init;condition;step)
+                                  do {} while(condition)
+How to find the right header to include in your source code when using a standard library function = man 3 function_name_here
+How does the main function influence the return value of the program = return 0;
+                                                                     = int main() {
+                                                                     ....
+                                                                     return 0;
+                                                                     }
 
 
 
 C - Variables, if, else, while
 *General
-What are the arithmetic operators and how to use them
-What are the logical operators (sometimes called boolean operators) and how to use them
-What the the relational operators and how to use them
-What values are considered TRUE and FALSE in C
-What are the boolean operators and how to use them
-How to use the if, if ... else statements
+What are the arithmetic operators and how to use them = is a mathematical function that takes two operands and performs a calculation on them
+      Addition (+)
+      Subtraction (-)
+      Multiplication (×)/(*)
+      Division (÷)/(/)
+What are the logical operators (sometimes called boolean operators) and how to use them = and, or, and not.
+      For example, x > 0 and x < 10 is true only if x is greater than 0 and at the same time, x is less than 10. How would you describe this in words? You would say that x is between 0 and 10, not including the endpints.
+      n % 2 == 0 or n % 3 == 0 is true if either of the conditions is true, that is, if the number is divisible by 2 or divisible by 3. In this case, one, or the other, or both of the parts has to be true for the result to be true.
+      Finally, the not operator negates a boolean expression, so not  x > y is true if x > y is false, that is, if x is less than or equal to y.
+What the the relational operators and how to use them = is a programing language construct or operator that tests or difines some kind of relation between two entities.
+      exm :equality (e.g., 5 = 5) and inequalities (e.g., 4 ≥ 3).
+What values are considered TRUE and FALSE in C = value of true ( 1 ) or false ( 0 ) as a result.
+What are the boolean operators and how to use them = used for storing logical values.And use for integers for boolean testing
+                  Operator
+            Meaning
+            A > B
+            True ( 1 ) if A is greater than B, false ( 0 ) otherwise
+            A < B
+            True ( 1 ) if A is less than B, false ( 0 ) otherwise
+            A >= B
+            True ( 1 ) if A is greater than or equal to B, false ( 0 ) otherwise
+            A <= B
+            True ( 1 ) if A is less than or equal to B, false ( 0 ) otherwise
+            A = = B
+            True ( 1 ) if A is exactly equal to B, false ( 0 ) otherwise
+            A != B
+            True ( 1 ) if A is not equal to B, false ( 0 ) otherwise
+
+How to use the if, if ... else statements = 
+            Use if to specify a block of code to be executed, if a specified condition is true
+            Use else to specify a block of code to be executed, if the same condition is false
+            Use else if to specify a new condition to test, if the first condition is false
+            Use switch to specify many alternative blocks of code to be executed
+
 How to use comments
+      
 How to declare variables of types char, int, unsigned int
 How to assign values to variables
 How to print the values of variables of type char, int, unsigned int with printf
